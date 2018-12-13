@@ -1,6 +1,6 @@
 # Weather widget dengan expo dan react code
 Tugas 2 pemrograman mobile 
-- nim  : 2015150097
+- nim  : 2015150083
 - nama : Rahman hidayat
 
 --------Scan QR Code---------
