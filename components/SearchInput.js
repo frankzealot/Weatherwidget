@@ -48,12 +48,12 @@ export default class SearchInput extends React.Component {
 
 const styles = StyleSheet.create({
 	container: {
-		height: 30,
-		marginTop: 20,
-		backgroundColor: '#666',
+		height: 35,
+		marginTop: 10,
+		backgroundColor: '#7B9BA5',
 		marginHorizontal: 40,
 		paddingHorizontal: 10,
-		borderRadius: 5,
+		borderRadius: 10,
 	},
 	textInput: {
 		flex: 1,

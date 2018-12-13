@@ -61,8 +61,9 @@ return (
     <ImageBackground source={getImageForWeather(weather)} style={styles.imageContainer}
     imageStyle={styles.image}
     >
+    
     <View style={styles.detailsContainer}>
-
+      <Text style={[styles.largeText, styles.textStyle]}>Weather Widget</Text>
       <ActivityIndicator animating={loading} color="white" size="large" />
       
       {!loading && (
@@ -70,7 +71,7 @@ return (
           {error && (
 
             <Text style={[styles.smallText, styles.textStyle]}>
-              Nothing Found
+              Tidak ditemukan
             </Text>
           )}
 
@@ -83,20 +84,20 @@ return (
                 {weather}
               </Text>
               <Text style={[styles.largeText, styles.textStyle]}>
-                {`${Math.round(temperature)}° Celcius`}
+                {`${Math.round(temperature)}° C`}
               </Text>
             </View>
           )}
 
           <SearchInput
-          placeholder="Search.."
+          placeholder="Cari..."
           onSubmit={this.handleUpdateLocation}
           />
         </View>
       )}  
 
             
-              <Text style = {[styles.foo, styles.miniText]}> RDA Corps </Text>
+      
 
         </View>
       </ImageBackground>
@@ -119,7 +120,7 @@ const styles = StyleSheet.create({
 
   },
   miniText:{
-    fontSize: 12,
+    fontSize: 15,
   },
   smallText: {
     fontSize: 18,
